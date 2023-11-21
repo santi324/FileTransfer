@@ -3,7 +3,7 @@ Simplemente pretendo solucionar un problema que se presenta al cargar archivos g
 
 
 new FileTransfer({
-  URL: "modules/file_transfer/file_transfer.php",
+  URL: "path/to/file",
   method: "POST",
   selected_files: archivo_seleccionado,
   update_callback: (progress) => {
